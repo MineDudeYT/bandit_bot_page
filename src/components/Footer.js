@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer">
-        <div className="footer-sec1">
+        <div className="footer-sec2">
           <div className="footer-header">
             <ul>
               <li>
@@ -48,24 +48,6 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
-        </div>
-        <div className="footer-sec2">
-          <hr />
-          <div className="footer-sec2-link">
-            <Link className="p-color no-decoration" href="#">
-              /support
-            </Link>
-            <Link
-              target="_blank"
-              className="p-color no-decoration"
-              href="https://github.com/preetsuthar17/discord-bot-website-template"
-            >
-              /source-code
-            </Link>
-            <Link className="p-color no-decoration" href="#">
-              /privacy
-            </Link>
           </div>
         </div>
       </footer>
