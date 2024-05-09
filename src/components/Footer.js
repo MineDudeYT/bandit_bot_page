@@ -35,15 +35,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="footer-items">
-            <ul>
-              <li>
-                <Link className="p-color" href="/commands">
-                  /commands
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
       </footer>
     </div>
