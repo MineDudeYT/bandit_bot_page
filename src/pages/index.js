@@ -19,7 +19,6 @@ export default function Home() {
       </Head>
       <Navbar />
       <Showcase />
-      <About />
       <JoinNow />
       <Footer />
     </>
