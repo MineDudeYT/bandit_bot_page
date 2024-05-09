@@ -42,11 +42,6 @@ const Footer = () => {
                   /commands
                 </Link>
               </li>
-              <li>
-                <Link className="p-color" href="#">
-                  /support
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
