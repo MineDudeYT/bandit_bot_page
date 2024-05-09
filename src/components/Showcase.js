@@ -18,8 +18,6 @@ const Showcase = () => {
           The best Discord bot for linking ComplexMC Factions with your Discord server!
           Includes many commands to fit your needs within your discord server.
         </p>
-
-        <span className="p-color">Bot is online!</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="https://discord.com/oauth2/authorize?client_id=1137832494142587020&permissions=8&scope=bot">
