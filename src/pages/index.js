@@ -20,7 +20,6 @@ export default function Home() {
       <Navbar />
       <Showcase />
       <About />
-      <JoinNow />
       <Footer />
     </>
   );
