@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  bot.gg
+                  banditbot.xyz
                 </Link>
                 <span
                   style={{
@@ -52,18 +52,6 @@ const Footer = () => {
         </div>
         <div className="footer-sec2">
           <hr />
-          <div>
-            <p className="p-color">
-              Created with ❤️ by{" "}
-              <Link
-                href="https://github.com/preetsuthar17"
-                className="h-color no-decoration"
-              >
-                Preet Suthar
-              </Link>
-            </p>
-            <p className="p-color">{year} &copy; All rights reserved!</p>
-          </div>
           <div className="footer-sec2-link">
             <Link className="p-color no-decoration" href="#">
               /support
