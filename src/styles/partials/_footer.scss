@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     li {
       padding: 0.6rem;
       a {
