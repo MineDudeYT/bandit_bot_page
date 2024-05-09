@@ -12,11 +12,11 @@ const Showcase = () => {
       <main className="showcase">
         <h1 className="showcase-header h-color">BOT</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          The greatest Complex Factions Discord Bot!
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          The best Discord bot for linking ComplexMC Factions with your Discord server!
+          Includes many commands to fit your needs within your discord server.
         </p>
 
         <span className="p-color">Bot is online!</span>
@@ -24,12 +24,6 @@ const Showcase = () => {
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
               Invite now!
-            </Link>
-          </button>
-
-          <button className="btn">
-            <Link className="h-color no-decoration" href="#">
-              Join server!
             </Link>
           </button>
         </div>
