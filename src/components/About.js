@@ -12,25 +12,24 @@ const About = () => {
             <div>
               <h4 className="h-color">⚡ Commands</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                Tons of commands bringing the game and other strategic elements straight to your Discord server. 
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
+              <h4 className="h-color">✉️ Quick Support</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                If there's ever an issue with the bot, there's a good chance it's already being worked on!
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✏️ Customization</h4>
+              <h4 className="h-color">✏️ Constant Updates</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                We have a very passionate developer who rolls out new features all of the time.
               </p>
               <hr />
-            </div>
+            </div> 
           </div>
         </div>
         <p>
