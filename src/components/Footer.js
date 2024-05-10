@@ -32,6 +32,9 @@ const Footer = () => {
                   />{" "}
                   Bot is online!
                 </span>
+                <span>
+                    G0Osey21#0000
+                </span>
               </li>
             </ul>
           </div>
