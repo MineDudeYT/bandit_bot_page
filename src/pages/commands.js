@@ -74,16 +74,12 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>.whitelist adduser (user mention)</kbd> -{" "}
+                  <span className="p-color">Gives Discord user access to the bot's commands. Only able to be used by server owners.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>.whitelist removeuser (user mention)</kbd> -{" "}
+                  <span className="p-color">Removes Discord user access to the bot's commands. Only able to be used by server owners.</span>
                 </li>
               </ul>
             </div>
