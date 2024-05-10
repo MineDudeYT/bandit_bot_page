@@ -14,6 +14,16 @@ const Footer = () => {
                 <Link className="h-color" href="/">
                   banditbot.xyz
                 </Link>
+                <span style={{
+                    fontSize: "12px",
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                  className="p-color"
+                >
+                    G0Osey21#0000
+                </span>
                 <span
                   style={{
                     fontSize: "12px",
@@ -31,16 +41,6 @@ const Footer = () => {
                     className="onlineStatus"
                   />{" "}
                   Bot is online!
-                </span>
-                <span style={{
-                    fontSize: "12px",
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                  }}
-                  className="p-color"
-                >
-                    G0Osey21#0000
                 </span>
               </li>
             </ul>
