@@ -35,16 +35,32 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>.m f who (faction name or player name)</kbd> -{" "}
+                  <span className="p-color">Displays faction information for specified faction or player.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>.m ftop (number - optional)</kbd> -{" "}
+                  <span className="p-color">Displays ftop information.</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>.m pvptop (number - optional)</kbd> -{" "}
+                  <span className="p-color">Displays pvptop information.</span>
+                </li>
+                <li>
+                  <kbd>.m f list (number - optional)</kbd> -{" "}
+                  <span className="p-color">Displays f list information.</span>
+                </li>
+                <li>
+                  <kbd>.m f corner</kbd> -{" "}
+                  <span className="p-color">Displays world corner claim information.</span>
+                </li>
+                <li>
+                  <kbd>.outpost</kbd> -{" "}
+                  <span className="p-color">Displays outpost information.</span>
+                </li>
+                <li>
+                  <kbd>.seen (player name)</kbd> -{" "}
+                  <span className="p-color">Displays player last seen time.</span>
                 </li>
               </ul>
             </div>
@@ -52,7 +68,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Utilities ⚙️
+              Moderation ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
