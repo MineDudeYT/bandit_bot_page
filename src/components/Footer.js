@@ -32,7 +32,14 @@ const Footer = () => {
                   />{" "}
                   Bot is online!
                 </span>
-                <span>
+                <span style={{
+                    fontSize: "12px",
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                  className="p-color"
+                >
                     G0Osey21#0000
                 </span>
               </li>
