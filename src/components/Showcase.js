@@ -5,7 +5,7 @@ const Showcase = () => {
   const handleButtonClick = () => {
     const confirmationMessage = "If you attempt to add the bot to your server before purchasing access and talking to G0Osey21#0000 on Discord, the bot will instantly leave your server.";
     if (window.confirm(confirmationMessage)) {
-      window.location.href = 'https://discord.com/oauth2/authorize?client_id=1137832494142587020&permissions=8&scope=bot';
+      window.open('https://discord.com/oauth2/authorize?client_id=1137832494142587020&permissions=8&scope=bot', '_blank');
     }
   };
 
@@ -27,9 +27,9 @@ const Showcase = () => {
         </p>
         <div className="showcase-btn">
           <button className="btn" onClick={handleButtonClick}>
-            <Link className="h-color no-decoration">
+            <p className="h-color no-decoration">
               Invite now!
-            </Link>
+            <p>
           </button>
         </div>
       </main>
