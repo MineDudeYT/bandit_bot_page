@@ -1,7 +1,14 @@
-import Link from "next/link";
-import { motion } from "framer-motion";
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const Showcase = () => {
+  const handleButtonClick = () => {
+    const confirmationMessage = "If you attempt to add the bot to your server before purchasing access and talking to G0Osey21#0000 on Discord, the bot will instantly leave your server.";
+    if (window.confirm(confirmationMessage)) {
+      window.location.href = 'https://discord.com/oauth2/authorize?client_id=1137832494142587020&permissions=8&scope=bot';
+    }
+  };
+
   return (
     <motion.div
       initial={{
@@ -19,14 +26,9 @@ const Showcase = () => {
           Includes many commands to fit your needs within your discord server.
         </p>
         <div className="showcase-btn">
-          <button className="btn">
-            <Link id="link" className="h-color no-decoration" href="https://discord.com/oauth2/authorize?client_id=1137832494142587020&permissions=8&scope=bot" target="_blank">
-              Invite now!
-            </Link>
+          <button className="btn" onClick={handleButtonClick}>
+            Invite now!
           </button>
-          <p className="showcase-para p-color">
-            (If you attempt to add the bot to your server before purchasing access and talking to G0Osey21#0000 on Discord, the bot will instantly leave your server.)
-          </p>
         </div>
       </main>
     </motion.div>
