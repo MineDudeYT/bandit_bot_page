@@ -17,12 +17,17 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="p-color" href="/">
-                /home
+                .home
               </Link>
             </li>
             <li>
               <Link className="p-color" href="/commands">
-                /commands
+                .commands
+              </Link>
+            </li>
+            <li>
+              <Link className="p-color" href="https://buy.stripe.com/14k4ja4Do51PeRi4gj">
+                .buy-access
               </Link>
             </li>
           </ul>
