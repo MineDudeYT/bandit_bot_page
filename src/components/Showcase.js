@@ -24,6 +24,9 @@ const Showcase = () => {
               Invite now!
             </Link>
           </button>
+          <p className="showcase-para p-color">
+            (If you attempt to add the bot to your server before purchasing access and talking to G0Osey21#0000 on Discord, the bot will instantly leave your server.)
+          </p>
         </div>
       </main>
     </motion.div>
