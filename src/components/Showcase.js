@@ -29,7 +29,7 @@ const Showcase = () => {
           <button className="btn" onClick={handleButtonClick}>
             <p className="h-color no-decoration">
               Invite now!
-            <p>
+            </p>
           </button>
         </div>
       </main>
