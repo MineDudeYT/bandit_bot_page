@@ -22,7 +22,7 @@ export default function Purchase() {
       <main className="showcase">
         <h1 className="showcase-header h-color">Purchase</h1>
         <h2 className="showcase-header-text h-color">
-          There are 2 ways to purchase the bot. A one-time purchase of $100 or a base fee of $50 and a monthly subscription of $5.\n 
+          There are 2 ways to purchase the bot. A one-time purchase of $100 or a base fee of $50 and a monthly subscription of $5.<br>
           Both ways get you full access to the bot and all of its commands, but give you the freedom of either going all in or just testing it out. Either of the two are great options.
         </h2>
 
