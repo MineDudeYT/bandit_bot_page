@@ -22,10 +22,11 @@ export default function Purchase() {
       <main className="showcase">
         <h1 className="showcase-header h-color">Purchase</h1>
         <h2 className="showcase-header-text h-color">
-          There are 2 ways to purchase the bot. A one-time purchase of $100 or a base fee of $50 and a monthly subscription of $5. Both ways get you full access to the bot and all of it's commands, but give you a freedom of either going all in or just testing it out. Either are both great options.
+          There are 2 ways to purchase the bot. A one-time purchase of $100 or a base fee of $50 and a monthly subscription of $5.\n 
+          Both ways get you full access to the bot and all of it's commands, but give you a freedom of either going all in or just testing it out. Either are both great options.
         </h2>
 
-        <span className="p-color">Bot is online!</span>
+        <span className="p-color">Press either button to go to the checkouts for the option of your choosing.</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
