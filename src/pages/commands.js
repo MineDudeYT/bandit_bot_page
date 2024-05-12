@@ -68,6 +68,29 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
+              Shardsearch 🗺️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>.shardsearch</kbd> -{" "}
+                  <span className="p-color">Runs shardsearch for your set shard.</span>
+                </li>
+                <li>
+                  <kbd>.shardsearch setchannel</kbd> -{" "}
+                  <span className="p-color">Sets the channel for intervaled shardsearches (specific to your server). Must be ran in the channel you're setting it to. Only able to be used by server owners.</span>
+                </li>
+                <li>
+                  <kbd>.shardsearch setworld (shard name)</kbd> -{" "}
+                  <span className="p-color">Sets the shard for shardsearches (specific to your server). Must be ran in the channel you're setting it to. Only able to be used by server owners.</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb3" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb3">
               Moderation ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -84,7 +107,6 @@ export default function Commands() {
               </ul>
             </div>
           </section>
-
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
