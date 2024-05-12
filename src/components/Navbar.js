@@ -26,7 +26,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="p-color" href="https://buy.stripe.com/14k4ja4Do51PeRi4gj" target="_blank">
+              <Link className="p-color" href="/purchase" target="_blank">
                 .buy-access
               </Link>
             </li>
