@@ -74,10 +74,6 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>.shardsearch</kbd> -{" "}
-                  <span className="p-color">Runs shardsearch for your set shard.</span>
-                </li>
-                <li>
                   <kbd>.shardsearch setchannel</kbd> -{" "}
                   <span className="p-color">Sets the channel for intervaled shardsearches (specific to your server). Must be ran in the channel you're setting it to. Only able to be used by server owners.</span>
                 </li>
